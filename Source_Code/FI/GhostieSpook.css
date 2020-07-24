@@ -3,7 +3,7 @@
 .clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="235792008763932672"]::before,
 .selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="235792008763932672"]::before,
 .contents-2mQqc9>.NFLDIncChatUser[NFLDIncChatUser="235792008763932672"]::before {
-	content: url(https://nfld99.com/images/Boops/ChaChing.png)
+	content: url(https://nfld99.com/images/Boops/GhostieSpook.png)
 }
 .clickable-1JJAn8 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="235792008763932672"]::after,
 .selected-aXhQR6 .layout-2DM8Md>.NFLDIncChatUser[nfldincchatuser="235792008763932672"]::after,
@@ -11,10 +11,10 @@
 	content: "Tis a spook \a Teh spooky spook :>."
 }
 .modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="235792008763932672"] > div {
-	background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/ChaChing.png) 50% 50%/cover !important
+	background: url(https://nfld99.com/images/Boops/PopoutBackgrounds/GhostieSpook.png) 50% 50%/cover !important
 }
 .modal-3c3bKg > div.inner-1ilYF7[nfldincpopoutuser="235792008763932672"] * {
-	color: rgb(0, 172, 234) !important;
-	border-color: rgb(0, 172, 234) !important
+	color: rgb(140,24,75) !important;
+	border-color: rgb(140,24,75) !important
 }
 /* GhostieSpook#6565 */
