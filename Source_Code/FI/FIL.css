@@ -32,6 +32,7 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/Harbringer.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/jjjman33.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/Dovaah.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/Zerebos.css);
 
 /* New donator stuff */
 
@@ -183,13 +184,20 @@
   animation: CLog 10s infinite linear;
 }
 
-/* BBDevs */
+/* BD Plugin/Theme Devs */
 [nfldincpopoutuser="278543574059057154"]:before,
 [nfldincpopoutuser="256531049222242304"]:before,
 [nfldincpopoutuser="219363409097916416"]:before,
 [nfldincpopoutuser="148059412165033984"]:before
 {
-  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10 250 15" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">BDDev</text></g></svg>');
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10 250 15" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">BD Plugin/Theme Dev</text></g></svg>');
+  animation: CLog 10s infinite linear;
+}
+
+/* BDDev */
+[nfldincpopoutuser="249746236008169473"]:before
+{
+  content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10 250 15" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">BD Dev</text></g></svg>');
   animation: CLog 10s infinite linear;
 }
 
