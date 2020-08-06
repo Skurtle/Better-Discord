@@ -48,7 +48,7 @@ Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/ma
 @import url('https://bdsources.github.io/sourcecheck/code.css');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 :root {
-  --Update-Text: " Update #531";
+  --Update-Text: " Update #532";
   --File-Updated-2020-5-24: url(https://nfld99.com/images/RDLTF.png);
   --Settings-Dock-Colour: var(--Main-Colour);
   --BetterDocsBlockerWhite: var(--Main-Colour);
@@ -57,7 +57,7 @@ Simplified-Green made by den -> https://github.com/denBot/Simplistic-CSS/blob/ma
   --ServerFolders-Guild-Columns: var(--Guild-Columns);
   --Home-Icon-Mask: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>bubble2</title><path d="M16 6c-1.717 0-3.375 0.271-4.928 0.804-1.46 0.502-2.76 1.211-3.863 2.108-2.069 1.681-3.209 3.843-3.209 6.088 0 1.259 0.35 2.481 1.039 3.63 0.711 1.185 1.781 2.268 3.093 3.133 0.949 0.625 1.587 1.623 1.755 2.747 0.056 0.375 0.091 0.753 0.105 1.129 0.233-0.194 0.461-0.401 0.684-0.624 0.755-0.755 1.774-1.172 2.828-1.172 0.168 0 0.336 0.011 0.505 0.032 0.655 0.083 1.325 0.126 1.99 0.126 1.717 0 3.375-0.271 4.928-0.804 1.46-0.502 2.76-1.211 3.863-2.108 2.069-1.681 3.209-3.843 3.209-6.088s-1.14-4.407-3.209-6.088c-1.104-0.897-2.404-1.606-3.863-2.108-1.553-0.534-3.211-0.804-4.928-0.804zM16 2v0c8.837 0 16 5.82 16 13s-7.163 13-16 13c-0.849 0-1.682-0.054-2.495-0.158-3.437 3.437-7.539 4.053-11.505 4.144v-0.841c2.142-1.049 4-2.961 4-5.145 0-0.305-0.024-0.604-0.068-0.897-3.619-2.383-5.932-6.024-5.932-10.103 0-7.18 7.163-13 16-13z"></path></svg>');
 
-  --Changelog: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 105" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Bug Fixes I hope __</text><text y="95" style="font-size: 1em;" x="0">__+ fixed new server tab thing __</text></g></svg>');
+  --Changelog: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 105" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Links:</text><text y="35" style="font-size: 1.1em;" x="0">Github: https://nfld99.com/github</text><text y="45" style="font-size: 1.1em;" x="0">Support Server: https://nfld99.com/discord</text><text y="55" style="font-size: 1.1em;" x="0">My Twitch: https://nfld99.com/twitch</text><text y="75" style="font-size: 1.6em; fill: lime;">Change Log:</text><text y="85" style="font-size: 1em;" x="0">__+ Bug Fixes I hope __</text><text y="95" style="font-size: 1em;" x="0">__+ fixed tooltips i hope __</text></g></svg>');
 
   --ChangelogSize: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 105" style="width:100%;height:100px;"></svg>');
 
@@ -15603,4 +15603,47 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 	background-color: var(--Background-Colour);
 	color: var(--Main-Colour);
 	border: 1px solid var(--Main-Colour);
+}
+
+.guildSection-1EoFKd{
+	background: transparent;
+	border-top: 1px solid var(--Main-Colour);
+}
+
+.container-ZRw2kD{
+	border: 1px solid var(--Main-Colour);
+}
+
+.button-F9qN4n:hover{
+	background: transparent;
+	box-shadow: 0 0 4px 2px var(--Main-Colour);
+	transition: all 250ms;
+}
+
+.button-F9qN4n{
+	background: transparent;
+  box-shadow: 0 0 4px 2px transparent;
+	transition: all 250ms;
+}
+
+/* Temp fix? */
+.tooltip-2QfLtc:after{
+	border: none;
+}
+
+.tooltip-2QfLtc{
+	padding: 4px 4px 0;
+}
+/* Temp fix? */
+
+.emptyChannelIcon-cc932w{
+	content: "";
+	-webkit-mask: url('data:image/svg+xml; utf8, <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.295 38.5C9.98388 38.5 9.74831 38.2189 9.80268 37.9126L11.0001 31.1667H4.26185C3.95124 31.1667 3.7158 30.8864 3.76934 30.5805L4.236 27.9138C4.27787 27.6746 4.48563 27.5 4.72852 27.5H11.6418L13.5851 16.5H6.84685C6.53624 16.5 6.3008 16.2198 6.35434 15.9138L6.821 13.2471C6.86287 13.0079 7.07063 12.8333 7.31352 12.8333H14.2268L15.4552 5.91262C15.4976 5.67391 15.7051 5.5 15.9475 5.5H18.5985C18.9096 5.5 19.1452 5.78107 19.0908 6.08738L17.8934 12.8333H28.8934L30.1218 5.91262C30.1642 5.67391 30.3717 5.5 30.6142 5.5H33.2652C33.5763 5.5 33.8119 5.78107 33.7575 6.08738L32.5601 12.8333H39.2983C39.6089 12.8333 39.8444 13.1136 39.7908 13.4195L39.3242 16.0862C39.2823 16.3254 39.0745 16.5 38.8317 16.5H31.9184L29.9751 27.5H36.7133C37.0239 27.5 37.2594 27.7802 37.2058 28.0862L36.7392 30.7529C36.6973 30.9921 36.4895 31.1667 36.2467 31.1667H29.3334L28.105 38.0874C28.0626 38.3261 27.8551 38.5 27.6127 38.5H24.9617C24.6506 38.5 24.415 38.2189 24.4693 37.9126L25.6668 31.1667H14.6668L13.4383 38.0874C13.396 38.3261 13.1885 38.5 12.946 38.5H10.295ZM17.2526 16.5L15.3092 27.5H26.3092L28.2526 16.5H17.2526Z" fill="white"/></svg>');
+	-webkit-mask-size: 80% ;
+	-webkit-mask-position: 80% ;
+	-webkit-mask-repeat: no-repeat ;
+	background-image: none ;
+	color: var(--Main-Colour) ;
+	fill: var(--Main-Colour) ;
+	background-color: var(--Main-Colour) ;
 }

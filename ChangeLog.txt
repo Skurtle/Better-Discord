@@ -1,2 +1,2 @@
 Bug Fixes I hope 
-fixed new server tab thing 
+fixed tooltips i hope 
