@@ -1,2 +1,2 @@
-Bug Fixes I hope 
-fixed tooltips i hope 
+Bug Fixes 
+new crash page design 
