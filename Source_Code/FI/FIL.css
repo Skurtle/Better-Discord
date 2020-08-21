@@ -33,6 +33,7 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/jjjman33.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/Dovaah.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/Zerebos.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/BannerBomb.css);
 
 /* New donator stuff */
 
@@ -142,7 +143,8 @@
 [nfldinccurrentuser="311480381046128641"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
 [nfldinccurrentuser="199196567989649408"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
 [nfldinccurrentuser="460764041254666245"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
-[nfldinccurrentuser="278003549537959939"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after
+[nfldinccurrentuser="278003549537959939"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
+[nfldinccurrentuser="269247101697916939"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after
 {
   color: var(--Main-Colour)!important;;
   content: var(--Theme-Variant)", "var(--Update-Text)", Thank you for your support! "!important;
@@ -178,7 +180,8 @@
 [nfldincpopoutuser="311480381046128641"]:before,
 [nfldincpopoutuser="199196567989649408"]:before,
 [nfldincpopoutuser="460764041254666245"]:before,
-[nfldincpopoutuser="278003549537959939"]:before
+[nfldincpopoutuser="278003549537959939"]:before,
+[nfldincpopoutuser="269247101697916939"]:before
 {
   content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10 250 15" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Donator</text></g></svg>');
   animation: CLog 10s infinite linear;
