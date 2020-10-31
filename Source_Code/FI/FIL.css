@@ -36,6 +36,7 @@
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/BannerBomb.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/Biskup.css);
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/Heedrakiller.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/ASN_RuBiiX.css);
 
 /* New donator stuff */
 
@@ -128,6 +129,7 @@
 
 /* Add Thank you to account page */
 [nfldinccurrentuser="483413721876529174"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
+[nfldinccurrentuser="241406754737487873"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
 [nfldinccurrentuser="197406501264949248"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
 [nfldinccurrentuser="123119491461677057"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
 [nfldinccurrentuser="167462879975571456"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
@@ -161,10 +163,12 @@
 [nfldinccurrentuser="269247101697916939"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
 [nfldinccurrentuser="335902720961675275"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
 [nfldinccurrentuser="163363674948370434"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
+[nfldinccurrentuser="367707174991953922"] *[layer-id="user-settings"] .userSettingsAccount-2eMFVR:after,
 
 /* Top = old | bottom = new */
 
 [nfldinccurrentuser="483413721876529174"] *[layer-id="user-settings"] .background-1QDuV2:before,
+[nfldinccurrentuser="241406754737487873"] *[layer-id="user-settings"] .background-1QDuV2:before,
 [nfldinccurrentuser="197406501264949248"] *[layer-id="user-settings"] .background-1QDuV2:before,
 [nfldinccurrentuser="123119491461677057"] *[layer-id="user-settings"] .background-1QDuV2:before,
 [nfldinccurrentuser="167462879975571456"] *[layer-id="user-settings"] .background-1QDuV2:before,
@@ -197,7 +201,8 @@
 [nfldinccurrentuser="278003549537959939"] *[layer-id="user-settings"] .background-1QDuV2:before,
 [nfldinccurrentuser="269247101697916939"] *[layer-id="user-settings"] .background-1QDuV2:before,
 [nfldinccurrentuser="335902720961675275"] *[layer-id="user-settings"] .background-1QDuV2:before,
-[nfldinccurrentuser="163363674948370434"] *[layer-id="user-settings"] .background-1QDuV2:before
+[nfldinccurrentuser="163363674948370434"] *[layer-id="user-settings"] .background-1QDuV2:before,
+[nfldinccurrentuser="367707174991953922"] *[layer-id="user-settings"] .background-1QDuV2:before
 {
   color: var(--Main-Colour)!important;;
   content: var(--Theme-Variant)", "var(--Update-Text)", Thank you for your support! "!important;
@@ -235,7 +240,8 @@
 [nfldincpopoutuser="278003549537959939"]:before,
 [nfldincpopoutuser="269247101697916939"]:before,
 [nfldincpopoutuser="335902720961675275"]:before,
-[nfldincpopoutuser="163363674948370434"]:before
+[nfldincpopoutuser="163363674948370434"]:before,
+[nfldincpopoutuser="367707174991953922"]:before
 {
   content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10 250 15" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Donator</text></g></svg>');
   animation: CLog 10s infinite linear;
@@ -259,7 +265,8 @@
 }
 
 /* Meeeeeeeeee */
-[nfldincpopoutuser="483413721876529174"]:before
+[nfldincpopoutuser="483413721876529174"]:before,
+[nfldincpopoutuser="241406754737487873"]:before
 {
   content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10 250 15" style="width:100%;height:100px;"><g style="fill: lime; font-size: .5em; font-family:verdana"><text y="20" style="font-size: 1.6em; fill: lime;">Developer</text></g></svg>');
   animation: CLog 10s infinite linear;
