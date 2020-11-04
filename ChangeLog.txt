@@ -1,2 +1,5 @@
-Bug Fix 
+Beta Program is now live on the support server 
 New Donator .ASN_RuBiiX. 
+Reduced Lag 
+New Look for Themes/plugins tab 
+Other bug fixes 
