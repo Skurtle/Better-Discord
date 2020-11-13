@@ -2,7 +2,7 @@
  * @name NEKOPARA Sleeping Kitties
  * @author TwinShadow / NFLD99
  * @version ersion auto updates
- * @description The cats of NEKOPARA all share the bed with one of their masters, sleeping peacefully. NEKOPARA © NEKO WORKS    |    Theme based on NFLD's template.    |    Support: https://nfld99.com/discord
+ * @description The cats of NEKOPARA all share the bed with one of their masters, sleeping peacefully. NEKOPARA © NEKO WORKS    |    Theme based on NFLD's template.
  * @source https://github.com/TwinDragon/DiscordTheme
  * @website https://nfld99.com/
  * @patreon https://nfld99.com/patreon
@@ -11,6 +11,7 @@
  * @authorId 483413721876529174
  * @invite 9ArHYa9
 */
+
 /* Sorce Code */
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
 /* Animations */
@@ -50,16 +51,16 @@
   --Chat-Input-Colour: var(--Main-Colour);
   --Unread-Message-1: var(--Main-Colour);
   --Unread-Message-2: var(--Background-Colour);
-  --Chat-Background: url(https://nfld99.com/Bkg/QnlQ7HoGyM-1-.jpg);
+  --Chat-Background: url(https://i.imgur.com/VjceKsC.jpg);
   --Settings-Background: rgba(246, 173, 198, 0.35);
   --Callout-Background: rgba(15, 15, 15, 0.85);
   --Title-Background: var(--Background-Colour);
   --Theme-Variant: " NEKOPARA Sleeping Kitties";
-  --Chat-Font-Used: "Whitney";
+  --Chat-Font-Used: "";
   --Chat-Font-Size: 15px;
   --Unread-Message-Speed: 1.5s;
   --Popout-Main-Colour: var(--Main-Colour);
-  --Popout-Background: url(https://nfld99.com/Bkg/abHaA7gdgq5Ez.png);
+  --Popout-Background: url(https://i.imgur.com/wcdachI.png);
   --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
   --Emote-Popout-Background: var(--Secondary-Background-Colour);
   --load1: "NEKOPARA";
@@ -74,19 +75,8 @@
   --Background-Darkness: 0.65;
 }
 
-/* Embeds Discord Default Behavior */
-.embedFull-2tM8--{
-  background-color: rgba(46,48,54,.3)!important;
-  border-color: rgba(46,48,54,.6)!important;
-}
-
-.theme-dark .embedDescription-1Cuq9a, .theme-dark .embedFieldValue-nELq2s, .theme-dark .embedFooterText-28V_Wb, .theme-dark .embedProvider-3k5pfl{
-  color: hsla(0,0%,100%,.6)!important;
-}
-/* END */
-
 /* Memberlist background */
 .theme-dark .members-1998pB{
-  background:url(https://nfld99.com/Bkg/rIUnPF4ox6oC0.png) 50% 50%/cover;
+  background:url(https://i.imgur.com/EamoHtd.png) 50% 50%/cover;
 }
 /* END */
