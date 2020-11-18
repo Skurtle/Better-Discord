@@ -112,21 +112,7 @@
     margin-top: 3px
   }
   
-  /* Voice Channel Hover- User Rich P. */
-  .container-2dqNWc {
-      width: 284px;
-      border-radius: 5px;
-      margin-left: -5px;
-      max-height: 348px;
-      -webkit-box-shadow:  rgba(6, 0, 7, 0.548);
-      box-shadow: var(--elevation-high);
-      background-color: rgba(41, 2, 85, 0.74);
-  }
-  .textRow-19NEd_ {
-      display: block;
-      font-size: 12px;
-      line-height: 16px;
-  }
+
   /* Message area over sized border */
   
   .textRow-19NEd_ {
