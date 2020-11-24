@@ -1,2 +1,4 @@
-Fixes 
-BBD Beta theming 
+fix guild glow 
+fix vc hover with RP thanks shiz 
+fix donator profiles 
+fix reply stuff 
